@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_numbers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="suvi.groupmessaging.NumbersActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_numbers"
+        android:id="@+id/n_hdln"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/n_hdln"
+
+        android:id="@+id/Name1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number1"
+        android:layout_alignTop="@+id/Name1"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name2"
+        android:layout_below="@+id/Name1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number2"
+        android:layout_alignTop="@+id/Name2"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name3"
+        android:layout_below="@+id/Name2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number3"
+        android:layout_alignTop="@+id/Name3"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name4"
+        android:layout_below="@+id/Name3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number4"
+        android:layout_alignTop="@+id/Name4"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name5"
+        android:layout_below="@+id/Name4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number5"
+        android:layout_alignTop="@+id/Name5"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name6"
+        android:layout_below="@+id/Name5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number6"
+        android:layout_alignTop="@+id/Name6"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name7"
+        android:layout_below="@+id/Name6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number7"
+        android:layout_alignTop="@+id/Name7"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name8"
+        android:layout_below="@+id/Name7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number8"
+        android:layout_alignTop="@+id/Name8"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name9"
+        android:layout_below="@+id/Name8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number9"
+        android:layout_alignTop="@+id/Name9"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Name10"
+        android:layout_below="@+id/Name9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Number10"
+        android:layout_alignTop="@+id/Name10"
+        android:layout_alignRight="@+id/n_del_edit"
+        android:layout_alignEnd="@+id/n_del_edit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/del"
+        android:id="@+id/button_del"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_to_del"
+        android:id="@+id/n_del_edit"
+        android:layout_above="@+id/button_del"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:id="@+id/button_edit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:id="@+id/button_num_send"
+        android:layout_alignBottom="@+id/button_del"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GroupMessaging</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="send">Send</string>
+    <string name="del">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="name">NAME</string>
+    <string name="number">NUMBER</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="numbers">Numbers</string>
+
+    <string name="clicked_no">You clicked NO.</string>
+
+    /*Main*/
+    <string name="send_sms">Send SMS?</string>
+    <string name="msg_sent">Message sent!</string>
+    <string name="empty_msg">Message is empty!</string>
+    <string name="no_nmbrs">No numbers saved</string>
+
+    <string name="text">Write your message below!</string>
+
+    <string name="w_msg"></string>
+
+    /*Numbers*/
+    <string name="text_numbers">Your Contacts:</string>
+    <string name="name_to_del">Name to delete</string>
+    <string name="num_deleted">Number deleted!</string>
+    <string name="name_not_found">Name not found!</string>
+    <string name="empty">Name to delete is empty.</string>
+    <string name="del_num">Delete number?</string>
+
+    /*EditNumbers*/
+    <string name="name_used">is already in use!</string>
+    <string name="number_invalid">number is invalid, only numbers are allowed! Length between 7 and 15 characters.</string>
+
+    <string name="w_name"></string>
+    <string name="w_number"></string>
+    <string name="number_used_edit"></string>
+
+</resources>
